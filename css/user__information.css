@@ -22,7 +22,7 @@
   width: 100%;
   margin-top: 0.3125rem;
   margin-bottom: 1.03125rem;
-  padding: 0.78125rem 2.78125rem 0.78125rem 2.78125rem;
+  padding: 0.78125rem 0.75rem 0.78125rem 2.78125rem;
   background: transparent;
   border-radius: 0.75rem;
   border: 1px solid var(--darkGray);
@@ -31,6 +31,10 @@
   font-size: 0.75rem;
   font-weight: 600;
   color: var(--darkGray);
+}
+
+.user__input-country {
+  padding: 0.78125rem 2.78125rem 0.78125rem 2.78125rem;
 }
 
 .user__input::placeholder {
