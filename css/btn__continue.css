@@ -1,0 +1,15 @@
+.btn__container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn__continue {
+  padding: 1.0625rem 2.8125rem;
+  background: var(--orange);
+  border-style: none;
+  border-radius: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--white);
+}

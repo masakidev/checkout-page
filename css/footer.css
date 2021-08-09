@@ -1,0 +1,15 @@
+.footer {
+  padding: 2.75rem 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-align: center;
+}
+
+.footer p {
+  color: gray;
+}
+
+.footer a {
+  font-weight: 700;
+  color: gray;
+}

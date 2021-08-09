@@ -1,0 +1,80 @@
+.user__information {
+  margin-bottom: 1.28125rem;
+}
+
+.user__information-title {
+  margin-bottom: 0.6875rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.user__contact-input {
+  position: relative;
+}
+
+.user__label-input {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+
+.user__input {
+  height: 2.75rem;
+  width: 100%;
+  margin-top: 0.3125rem;
+  margin-bottom: 1.03125rem;
+  padding: 0.78125rem 0.75rem 0.78125rem 2.78125rem;
+  background: transparent;
+  border-radius: 0.75rem;
+  border: 1px solid var(--darkGray);
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--darkGray);
+}
+
+.user__input::placeholder {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--darkGray);
+}
+
+.user__input-group {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.75rem;
+  color: var(--black);
+}
+
+.user__country-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.user__save-information {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--black);
+}
+
+.material-icons-style {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0.9375rem 0.625rem;
+  color: var(--darkGray);
+}
+
+.material-icons-country {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 0.9375rem 0.625rem;
+  color: var(--darkGray);
+  z-index: -1;
+  background: var(--gray);
+  border-radius: 0.25rem;
+}

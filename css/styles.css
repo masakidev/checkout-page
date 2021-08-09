@@ -2,7 +2,8 @@
 
 @import './wrapper.css';
 @import './products.css';
-@import './userInformation.css';
+@import './user__information.css';
+@import './btn__continue.css';
 @import './footer.css';
 
 :root {
@@ -12,6 +13,7 @@
   --darkGray: #828282;
   --veryDarkGray: #4E5150;
   --black: #333333;
+  --white: #fff;
   --borderGray: #BDBDBD;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
@@ -25,6 +27,10 @@
 
 img {
   display: block;
+}
+
+select {
+  appearance: none;
 }
 
 .page__title {
