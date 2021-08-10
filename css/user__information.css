@@ -4,6 +4,10 @@
   font-weight: 600;
 }
 
+.user__contact {
+  margin-bottom: 2.8125rem;
+}
+
 .user__contact-input {
   position: relative;
 }
@@ -105,4 +109,60 @@
   font-size: 0.875rem;
   font-weight: 600;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .user__information {
+    grid-area: userinfo;
+  }
+
+  .user__information-title {
+    margin-bottom: 0.9375rem;
+    font-size: 1.125rem;
+  }
+
+  .user__contact {
+    margin-bottom: 3.615rem;
+  }
+
+  .user__label-input {
+    margin-bottom: 0.4375rem;
+    font-size: 0.75rem;
+  }
+
+  .user__input {
+    padding: 0.78125rem 0.75rem 0.78125rem 3rem;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+  }
+
+  .user__input::placeholder {
+    font-size: 1rem;
+  }
+
+  .user__input-group {
+    font-size: 1rem;
+  }
+
+  .user__input-country {
+    padding: 0.78125rem 2.78125rem 0.78125rem 3rem;
+  }
+
+  .user__save-information {
+    margin-bottom: 1.4375rem;
+    font-size: 0.75rem;
+  }
+
+  .user__information-thanks img {
+    width: 300px;
+  }
+  
+  .user__information-thanks h1 {
+    font-size: 2rem;
+
+  }
+  
+  .user__information-thanks p {
+    font-size: 1rem;
+  }
 }

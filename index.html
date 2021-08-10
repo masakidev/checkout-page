@@ -85,7 +85,7 @@
           <span class="material-icons material-icons-style">
             email
           </span>
-          <input class="user__input" type="email" name="email" id="email" placeholder="Enter your email...">
+          <input class="user__input" type="email" name="email" id="email" placeholder="Enter your email..." required>
         </div>
         <label class="user__label-input" for="phone">
           Phone
@@ -94,7 +94,7 @@
           <span class="material-icons material-icons-style">
             phone
           </span>
-          <input class="user__input" type="tel" name="phone" id="phone" placeholder="Enter your phone...">
+          <input class="user__input" type="tel" name="phone" id="phone" placeholder="Enter your phone..." required>
         </div>
       </div>
       <!-- Contact information -->
@@ -109,7 +109,7 @@
           <span class="material-icons material-icons-style">
             account_circle
           </span>
-          <input class="user__input" type="text" name="name" id="name" placeholder="Your name...">
+          <input class="user__input" type="text" name="name" id="name" placeholder="Your name..." required>
         </div>
         <label class="user__label-input" for="address">
           Address
@@ -118,7 +118,7 @@
           <span class="material-icons material-icons-style">
             home
           </span>
-          <input class="user__input" type="text" name="address" id="address" placeholder="Your address....">
+          <input class="user__input" type="text" name="address" id="address" placeholder="Your address...." required>
         </div>
         <label class="user__label-input" for="city">
           City
@@ -127,7 +127,7 @@
           <span class="material-icons material-icons-style">
             apartment
           </span>
-          <input class="user__input" type="text" name="city" id="city" placeholder="Your city...">
+          <input class="user__input" type="text" name="city" id="city" placeholder="Your city..." required>
         </div>
         <div class="user__country-container">
           <div>
@@ -141,7 +141,7 @@
             <span class="material-icons material-icons-country">
               expand_more
             </span>
-            <select class="user__input user__input-country" name="country" id="country">
+            <select class="user__input user__input-country" name="country" id="country" required>
               <option value="0" label="Select a country..." selected="selected">Select a country...</option>
               <optgroup class="user__input-group" id="country-optgroup-Africa" label="Africa">
                   <option value="DZ" label="Algeria">Algeria</option>
@@ -417,7 +417,7 @@
               <span class="material-icons material-icons-style">
                 markunread_mailbox
               </span>
-              <input class="user__input" type="text" name="zip" id="zip" placeholder="Your postal code...">
+              <input class="user__input" type="text" name="zip" id="zip" placeholder="Your postal code..." required>
             </div>
           </div>
         </div>
@@ -427,8 +427,8 @@
         Save this information for next time
       </label>
       </div>
-      <div class="btn__container" type="submit">
-        <button class="btn" id="btn__continue" >
+      <div class="btn__container">
+        <button class="btn" id="btn__continue" type="submit">
           Continue
         </button>
       </div>

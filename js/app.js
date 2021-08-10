@@ -82,7 +82,7 @@ function addToTotal() {
 $btnContinue.addEventListener('click', () => {
   $body.innerHTML = `
             <div class="user__information-thanks">
-              <img src="../images/flame-sending-message.png"></img>
+              <img src="./images/flame-sending-message.png"></img>
               <h1>
                 Congratulations.<br>
                 You order is accepted.

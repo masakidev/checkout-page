@@ -73,3 +73,31 @@
   font-size: 0.875rem;
   font-weight: 600;
 }
+
+@media screen and (min-width: 768px) {
+  .products {
+    grid-area: products;
+    height: fit-content;
+  }
+
+  .product__name {
+    margin-bottom: 0.375rem;
+    font-size: 1rem;
+  }
+
+  .product__price-discount {
+    font-size: 1rem;
+  }
+
+  .product__price-normal {
+    font-size: 0.75rem;
+  }
+
+  .product__amount {
+    font-size: 1rem;
+  }
+
+  .product__total-text {
+    font-size: 1rem;
+  }
+}

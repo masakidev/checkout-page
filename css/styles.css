@@ -34,7 +34,15 @@ select {
 }
 
 .page__title {
+  grid-area: title;
   margin-bottom: 1.3125rem;
   font-size: 1.5rem;
   font-weight: 600;
+}
+
+@media screen and (min-width: 768px) {
+  .page__title {
+    grid-area: title;
+    font-size: 2rem;
+  }
 }
