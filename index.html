@@ -18,7 +18,7 @@
         <div class="product__description">
           <h2 class="product__name">Vintage Backbag</h2>
           <div class="product__price">
-            <h2 class="product__price-discount">
+            <h2 class="product__price-discount" id="vintage__backbag-price">
               $54.99
             </h2>
             <h2 class="product__price-normal">
@@ -26,13 +26,15 @@
             </h2>
           </div>
           <div class="product__amount">
-            <span class="material-icons material-icons-bg">
+            <button class="material-icons material-icons-bg" id="vintage__backbag-remove">
               remove
-            </span>
-            <h2 class="product__amount-initial">1</h2>
-            <span class="material-icons material-icons-bg">
+            </button>
+            <h2 class="product__amount-initial" id="vintage__backbag-amount">
+              0
+            </h2>
+            <button class="material-icons material-icons-bg" id="vintage__backbag-add">
               add
-            </span>           
+            </button>           
           </div>
         </div>
       </div>
@@ -41,7 +43,7 @@
         <div class="product__description">
           <h2 class="product__name">Levi Shoes</h2>
           <div class="product__price">
-            <h2 class="product__price-discount">
+            <h2 class="product__price-discount" id="levi__shoes-price">
               $74.99
             </h2>
             <h2 class="product__price-normal">
@@ -49,23 +51,25 @@
             </h2>
           </div>
           <div class="product__amount">
-            <span class="material-icons material-icons-bg">
+            <button class="material-icons material-icons-bg" id="levi__shoes-remove">
               remove
-            </span>
-            <h2 class="product__amount-initial">1</h2>
-            <span class="material-icons material-icons-bg">
+            </button>
+            <h2 class="product__amount-initial" id="levi__shoes-amount">
+              0
+            </h2>
+            <button class="material-icons material-icons-bg" id="levi__shoes-add">
               add
-            </span>           
+            </button>           
           </div>
         </div>
       </div>
       <div class="product__total">
         <h2 class="product__total-text">Shipping</h2>
-        <h2 class="product__total-text">$19</h2>
+        <h2 class="product__total-text">$19.00</h2>
       </div>
       <div class="product__total">
         <h2 class="product__total-text">Total</h2>
-        <h2 class="product__total-text">$148.98</h2>
+        <h2 class="product__total-text" id="product__total">$0.00</h2>
       </div>
     </div>
     <!-- Products -->
@@ -423,12 +427,12 @@
         Save this information for next time
       </label>
       </div>
+      <div class="btn__container" type="submit">
+        <button class="btn" id="btn__continue" >
+          Continue
+        </button>
+      </div>
     </form>
-    <div class="btn__container">
-      <button class="btn__continue">
-        Continue
-      </button>
-    </div>
   </div>
   <!-- User information -->
   <!-- Footer -->
